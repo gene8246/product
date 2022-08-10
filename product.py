@@ -11,4 +11,8 @@ while True:
 	products.append([product, price]) #相同於上面
 
 print(products)
-print(products[0][0]) #第零個小清單中的第零個
+#print(products[0][0]) #第零個小清單中的第零個
+
+for p in products:
+	print('product name is ', p[0])
+	print('product price is ', p[1])
